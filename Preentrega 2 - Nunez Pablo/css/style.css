@@ -180,8 +180,8 @@ margin: 20px;
 }
 
 .img-intimates{
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -257,25 +257,22 @@ margin: 20px;
 }
 
 .llamadas-contacto{
-    display: grid;
     justify-items: center;
     text-align: center;
 }
 
 .ig-contacto{
-    display: grid;
-    justify-items: center;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .email-contacto{
-    display: grid;
     justify-items: center;
     text-align: center;
 }
 
 .ubicacion-contacto{
-    display: grid;
     justify-items: center;
     text-align: center;
 }
@@ -289,7 +286,7 @@ margin: 20px;
         display: grid;
         grid-template-columns: repeat(2, 50%);
         justify-items: center;
-        align-items: center;     
+        align-items: center;   
     }
 
     .contenedor-productos-hc{
